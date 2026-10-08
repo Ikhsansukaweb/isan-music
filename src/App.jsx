@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Play, Pause, SkipBack, SkipForward, Volume2, Search, Flame, Music2, Loader2 } from 'lucide-react';
 
-const API_BASE = 'https://isanim.web.id/api/music';
+const API_BASE = '/api/music';
 
 export default function App() {
   const [songs, setSongs] = useState([]);
